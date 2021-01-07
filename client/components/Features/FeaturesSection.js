@@ -4,14 +4,14 @@ import styled from 'styled-components'
 import Features from './Features'
 import individuals from '../../assets/images/individuals.jpg'
 import businesses from '../../assets/images/businesses.jpg'
-import lawyer from '../../assets/images/lawyer4.jpg'
+import practiceAreas from '../../assets/images/practiceAreas.jpg'
 import {mediaQueries} from '../Reusable/Container'
 
 
 const clients = [
     {image: individuals, service: 'Individuals', description: ''},
     {image: businesses, service: 'Businesses'},
-    {image: lawyer, service: 'Lawyers'}
+    {image: practiceAreas, service: 'Practice Areas'}
 ]
 
 const Wrapper = styled(Container)`

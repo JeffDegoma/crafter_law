@@ -35,14 +35,18 @@ const Hero = styled(FlexDiv)`
 
 export const Logo = styled(FlexDiv)`
     background: url(${logo});
-    height: 200px;
-    width: 200px;
+    height: 41%;
+    width: 20%;
     position: absolute;
-    left: 18%;
+    right: 2%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 2%;
     background-size: contain;
     background-repeat: no-repeat;
     ${mediaQueries('mobileL')`
         left: 23%;
+        width: 60%;
     `}
 
 `

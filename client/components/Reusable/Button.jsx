@@ -42,8 +42,8 @@ const Button = styled.button`
     :hover {
         background: white;
         border: 3px solid ${props => props.theme.secondary.color};
-        transition:  .2s ease-in;
-        -webkit-transition:  .2s ease-in;
+        transition:  .1s ease-in;
+        -webkit-transition:  .1s ease-in;
     }
 
     border-radius: 10px;
@@ -53,8 +53,8 @@ const Button = styled.button`
     pointer;
     font-size: 18px; //default
     text-transform: uppercase;
-    transition:  .2s ease-in;
-    -webkit-transition:  .2s ease-in;
+    transition:  .1s ease-in;
+    -webkit-transition:  .1s ease-in;
 `
 
 

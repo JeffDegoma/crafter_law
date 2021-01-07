@@ -7,18 +7,18 @@ import FlexDiv from './Reusable/Flex'
 import girl from '../assets/images/girl2.jpg' //should come from external resource
 import guy from '../assets/images/guy.jpg' //should come from external resource
 import group from '../assets/images/group.jpg' //should come from external resource
-import talib from '../assets/images/talib.png' //should come from external resource
+import owner from '../assets/images/owner.jpg' //should come from external resource
 
 
 const reviews = [
     {
         name: 'Karimu',
-        review: "So far my experience has been great. My case is still in progress, but so far everything has been smooth. I would recommend Abe Legal to others!", 
+        review: "So far my experience has been great. My case is still in progress, but so far everything has been smooth. I would recommend the Crafter Law Group to others!", 
         location: 'Maryland',
         image: girl,
     },
     {
-        name: 'Monica',
+        name: 'Floyd',
         review: "It’s affordable. I’ve already recommended one of my friends! I do appreciate it (the service). I feel like I’m on the right track!",
         location: 'Maryland',
         image: guy,
@@ -30,10 +30,10 @@ const reviews = [
         image: group
     },
     {
-        name: 'Taalib Saber',
+        name: 'Svetlana',
         review: "It’s affordable. They (Crafter Law) have almost immediate access to a lawyer. They were able to schedule a consultation with a lawyer almost senselessly, virtually, all within a week’s time.",
         location: 'Maryland',
-        image: talib
+        image: owner
     },
     
 ]
@@ -152,9 +152,9 @@ const SocialProof = () => {
                 <SliderContainer alignCenter>
                     <SliderContent>
                         <ul>
-                            {reviews.map(obj => {
+                            {reviews.map((obj, i) => {
                                 return (
-                                    <li>
+                                    <li key={i}>
                                     <div className="review-container">
                                         <div className="top">
                                             <img src={QuotationMarks} alt=""/>

@@ -8,6 +8,7 @@ import lawyer from '../assets/images/specialists.jpg'
 const HeroWrapper2 = styled(Container)`
     background: ${props => props.theme.primary.color};
     padding-left: 135px;
+    overflow-x: hidden;
     ${mediaQueries('mobileL')`
         height: 100%;
         padding: 10px 15px;

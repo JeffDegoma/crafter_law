@@ -11,6 +11,9 @@ const GlobalStyle = createGlobalStyle`
     html, body {
         background: #004C70;
         font-family: 'Scheherazade', serif;   
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
         
         h1{
             font-weight: 400;  

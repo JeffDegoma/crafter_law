@@ -26,7 +26,7 @@ const FooterContent = styled.div`
         `}
 
         margin: auto;
-        padding: 2rem 1rem;
+        padding: 7rem 1rem;
         div {
             margin-bottom: 1rem;
         }
@@ -134,12 +134,12 @@ const Footer = () => {
                                 <a href="#">Privacy Policy</a>
                             </li>
                             <li>
-                                <a href="#">Why Crafter Law Group?</a>
+                                <a href="#">Why The Crafter Law Group?</a>
                             </li>
                         </ul >
                     </div>
                 <div className="copyright">
-                 &copy; {year} Abe Legal, Inc. All rights reserved.
+                 &copy; {year} The Crafter Law Group, Inc. All rights reserved.
                 </div>
                 </div>
   </footer>

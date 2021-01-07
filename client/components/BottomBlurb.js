@@ -82,7 +82,7 @@ const BottomBlurb = (props) => {
                 <Bottom key={i} flowColumn justifyEnd>
                     <BlurbWrapper small>
                     <h2>{props.activeLabel}</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium tempora consequuntur expedita quas ipsam a illo nulla perferendis odit, suscipit temporibus! Quia autem tempore nulla! Excepturi necessitatibus harum blanditiis? </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium tempora consequuntur expedita quas ipsam a illo nulla perferendis odit, suscipit temporibus!</p>
                     <Button variant="primary" width="large">Learn more</Button>
                     </BlurbWrapper>
                 </Bottom>

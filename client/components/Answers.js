@@ -5,7 +5,7 @@ import {mediaQueries} from './Reusable/Container'
 import lawyer from '../assets/images/lawyer3.jpg'
 
 
-const CTA = styled(Container)`
+const AnswersWrapper = styled(Container)`
     background: ${props => props.theme.primary.color};
     padding-left: 135px;
     ${mediaQueries('mobileL')`
@@ -51,7 +51,7 @@ const AnswerContent = styled.div`
             width: 100%;
             font-size: 58px;
             position: relative;
-            margin-bottom: 10%;
+            
         `};
         top: 0%;
 
@@ -97,13 +97,13 @@ const ImageContainer = styled.div`
 const Answers = () => {
 
     return (
-        <CTA fullVertical>
+        <AnswersWrapper fullVertical>
             <AnswerContent justifyCenter flowColumn>
                 <h1>The Legal team You deserve</h1>
                 <p>We know that law can be complicated. That’s why we walk you through your legal issues and resolve them with your peace in mind.</p>
                 <ImageContainer><img src={lawyer} alt=""/></ImageContainer>
             </AnswerContent>
-        </CTA>
+        </AnswersWrapper>
     );
 };
 
