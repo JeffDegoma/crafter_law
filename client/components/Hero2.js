@@ -116,7 +116,7 @@ const Answers = () => {
                 <p>
                     We are committed to upholding the law on your behalf and making sure that we pursue the protections that you are entitled to.
                 </p>
-                <ImageContainer><img src={lawyer} alt=""/></ImageContainer>
+                <ImageContainer><img src={lawyer} alt="attorney"/></ImageContainer>
             </HeroContent2>
         </HeroWrapper2>
     );

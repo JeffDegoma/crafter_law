@@ -95,7 +95,7 @@ const Footer = () => {
                                 <a href="#">For Lawyers</a>
                             </li>
                             <li>
-                                <a href="#">For Businesess</a>
+                                <a href="#">Practice Areas</a>
                             </li>
                         </ul >
                     </div>
